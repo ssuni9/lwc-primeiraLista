@@ -1,0 +1,12 @@
+<template>
+		<lightning-card>
+				<h1 class="slds-text-heading_large">
+					Meus pokemons
+				</h1>
+
+		<template for:each={poke} for:item="p">
+		<p key={p.cod}>Nome:{p.nome}, Tipo:{p.tipo} </p>
+
+ </template>
+	</lightning-card>
+</template>
